@@ -1,0 +1,142 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 175%
+}
+
+section {
+  border: 1px solid black;
+  background-color: gray;
+  position: relative;
+  margin: 0.5%;
+}
+
+h2 {
+  border: 1px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 125%;
+  width: 33%;
+  text-align: center;
+}
+
+p {
+  padding: 40px 10px 10px 10px;
+}
+
+
+#chicken {
+  background-color: green;
+}
+
+#beef{
+  background-color: red;
+}
+
+#sushi{
+  background-color: blue;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 7.33%;
+  }
+  .col-lg-2 {
+    width: 15.66%;
+  }
+  .col-lg-3 {
+    width: 24%;
+  }
+  .col-lg-4 {
+    width: 32.33%;
+  }
+  .col-lg-5 {
+    width: 40.66%;
+  }
+  .col-lg-6 {
+    width: 49%;
+  }
+  .col-lg-7 {
+    width: 57.33%;
+  }
+  .col-lg-8 {
+    width: 65.66%;
+  }
+  .col-lg-9 {
+    width: 73.99%;
+  }
+  .col-lg-10 {
+    width: 82.33%;
+  }
+  .col-lg-11 {
+    width: 90.66%;
+  }
+  .col-lg-12 {
+    width: 99%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 7.33%;
+  }
+  .col-md-2 {
+    width: 15.66%;
+  }
+  .col-md-3 {
+    width: 24%;
+  }
+  .col-md-4 {
+    width: 32.33%;
+  }
+  .col-md-5 {
+    width: 40.66%;
+  }
+  .col-md-6 {
+    width: 49%;
+  }
+  .col-md-7 {
+    width: 57.33%;
+  }
+  .col-md-8 {
+    width: 65.66%;
+  }
+  .col-md-9 {
+    width: 73.99%;
+  }
+  .col-md-10 {
+    width: 82.33%;
+  }
+  .col-md-11 {
+    width: 90.66%;
+  }
+  .col-md-12 {
+    width: 99%;
+  }
+}
+
