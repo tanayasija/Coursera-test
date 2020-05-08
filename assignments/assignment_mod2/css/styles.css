@@ -26,9 +26,9 @@ h2 {
   border: 1px solid black;
   position: absolute;
   top: 0px;
-  right: 0px;
+  left: 0px;
   font-size: 125%;
-  width: 33%;
+  /*width: 33%;*/
   text-align: center;
 }
 
